@@ -1,0 +1,38 @@
+// Q.1 <!DOCTYPE html> is it a tag of html? If not, what is it and why do we use it?
+
+// It just an instruction to the browser about the document type or to provide links to a set of 
+// rules that the HTML page had to follow, which could mean automatic error checking etc. 
+// Because it doesn't need to be a tag. It's almost a redundancy for the . html file extension.
+
+
+// Q.2 Explain Semantic tags in html? And why do we need it?
+// Semantic HTML tags are tags that define the meaning of the content they contain. For example, 
+// tags like <header>, <article>, and <footer> are semantic HTML tags. They clearly indicate the 
+// role of the content they contain.
+// It help the search engines and other user devices to determine the importance 
+// and context of web pages. The pages made with semantic elements are much easier to read.
+
+// Q.3 Differentiate between HTML Tags and Elements?
+// Elements and tags are terms that are widely confused. HTML documents contain tags,
+//  but do not contain the elements. The elements are only generated after the parsing step, 
+//  from these tags. An HTML element is defined by a starting tag. If the element contains other content, 
+//  it ends with a closing tag.
+//  For example <p> is starting tag of a paragraph and </p> is closing tag of the same paragraph but 
+//  <p>This is paragraph</p> is a paragraph element.
+
+// Q.6 What are some of the advantages of HTML5 over its previous versions?
+// Cleaner Code Structure.
+// Cross-Browser Compatibility.
+// Audio and Video Tags.
+// Offline Browsing.
+// No More Cookies.
+// Canvas for Animation and Game Development.
+
+// Q.8 What is the difference between <figure> tag and <img> tag?
+// The figure tag is used to semantically organize the content of images, videos, audios 
+// or even charts or tables, block of codes in the HTML document. The image tag is used to 
+// add an image to an HTML page. <img> tag can only insert image.
+
+// Q.9 What’s the difference between html tag and attribute and give example of some global attributes?
+// HTML tags are used to hold the HTML element. HTML element holds the content. HTML attributes are used 
+// to describe the characteristic of an HTML element in detail. 
