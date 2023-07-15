@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #000000;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    display: flex;
+    padding: 6% 3% 5% 3%;
+    height: 65vh;
+    justify-content:space-around;
+}
+
+.item1 h1, .item2 h1, .item3 h1, .item4 h1{
+padding-bottom: 5%;
+color: white;
+}
+
+.item1{
+    width: 30%;
+}
+
+.item2, .item3{
+    width: 18%;
+}
+
+.item4{
+    width: 25%;
+}
+.item3 ul li, .item2 ul li{
+    list-style: none;
+    color: rgb(150, 144, 136);
+    line-height: 6vh;
+    font-size: 18px;
+}
+
+.item1 p{
+    font-size: 20px;
+    line-height: 4.5vh;
+    color: rgb(150, 144, 136);
+}
+
+.form1{
+    display: block;
+}
+
+.form1 input{
+    width: 90%;
+    height: 7vh;
+    border-radius: 4px;
+    outline: none;
+    padding-left: 5%;
+    border: none;
+    margin-bottom: 4%;
+}
+
+.form1 button{
+    width: 90%;
+    height: 7vh;
+    border-radius: 5px;
+    background-color: #4db7e8;
+    outline: none;
+    border: none;
+}
+
+@media screen and (max-width: 640px) {
+    .container{
+        display: block;
+        overflow-y: scroll;
+        
+    }
+
+    .item1, .item2, .item3, .item4{
+        width: 100%;
+        margin-bottom: 5vh;
+        padding: 20px 20px 1px 20px;
+    }
+}

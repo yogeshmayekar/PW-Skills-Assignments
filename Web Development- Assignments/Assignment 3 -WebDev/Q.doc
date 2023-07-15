@@ -1,0 +1,27 @@
+Q.1 What is a Media Query in CSS, and what is its purpose?
+Media queries are a key part of responsive web design, as they allow you to create different 
+layouts depending on the size of the viewport, but they can also be used to detect other things 
+about the environment your site is running on.
+
+Q.2 How do you define a media query in CSS?
+A media query consists of a media type and can contain one or more expressions, 
+which resolve to either true or false. The result of the query is true if the specified
+media type matches the type of device the document is being displayed on and all expressions 
+in the media query are true.
+
+Q.3 Explain the concept of Breakpoints in Responsive Web Design and How They are used in Media Queries.
+A breakpoint in a responsive design is the “point” at which a website's content and design 
+will adapt in a certain way to provide the best possible user experience. We set breakpoints 
+wherever we want to pause debugger execution.
+
+Q.4 What is the purpose of using Media Queries for Print Media?
+Media queries are a great way to create websites that are flexible, 
+responsive, and user-friendly. By utilizing media queries, you can optimize
+your website layout and content for different screen sizes, orientations, and 
+resolutions, avoiding any horizontal scrolling or distorted images.
+
+Q.5 What is the purpose of the orientation media feature?
+It refers to the attitude of communication professionals towards mass media.
+
+
+
