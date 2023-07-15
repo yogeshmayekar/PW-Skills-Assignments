@@ -1,0 +1,70 @@
+Q.1 Explain Hoisting in JavaScript
+Hoisting is the default behavior of moving all the declarations at the top of the scope before 
+code execution. Basically, it gives us an advantage that no matter where functions and variables
+are declared, they are moved to the top of their scope regardless of whether their scope is global or local.
+
+Q.2 Explain Temporal Dead Zone?
+Temporal Dead Zone is the period of time during which the let and const declarations cannot be accessed.
+Temporal Dead Zone starts when the code execution enters the block which contains the let or const declaration 
+and continues until the declaration has executed.
+
+Q.3 Difference between var & let?
+The difference between let and var is in the scope of the variables they create: Variables declared 
+by let are only available inside the block where they're defined. Variables declared by var are
+available throughout the function in which they're declared.
+
+Q.4 What are the major features introduced in ECMAScript 6?
+let and const keywords.
+Arrow Functions.
+Multi-line Strings.
+Default Parameters.
+Template Literals.
+Destructuring Assignment.
+Enhanced Object Literals.
+Promises.
+
+Q.5 What is the difference between let and const ?
+var and let create variables that can be reassigned another value.
+const creates "constant" variables that cannot be reassigned another value.
+
+Q.6  What is template literals in ES6 and how do you use them?
+Template literals are a new feature introduced in ECMAScript 2015. 
+It provides an easy way to create multiline strings and perform string interpolation.
+Template literals are the string literals and allow embedded expressions.
+Before ES6, template literals were called as template strings.
+
+Q.7 What’s difference between map & forEach?
+forEach() method does not returns a new array based on the given array. The map() method returns
+an entirely new array. The forEach() method returns “undefined“. The map() method returns the 
+newly created array according to the provided callback function.
+
+Q.8 How can you destructure objects and arrays in ES6?
+Array Destructuring
+const colorArr = ["red", "yellow", "blue", "green", "white", "black"];
+const [first, second] = colorArr;
+console.log(first, second);
+
+Object Destructuring
+const obj ={
+    name:"Yogesh",
+    age:24,
+    gender: "male
+}
+const {value1, value2} = obj;
+console.log(value1, value2);
+
+Q.9 How can you define default parameter values in ES6 functions?
+Function parameters with default values are initialized with default values if they contain 
+no value or are undefined. JavaScript function parameters are defined as undefined by default. 
+However, it may be useful to set a different default value.
+
+Q.10 What is the purpose of the spread operator (...) in ES6?
+Spread operator helps the iterable objects to expand into individual elements.
+Iterable objects are those on which we can use a loop, for example, Array, Map, Set, etc.
+In other words, the spread operator allows us to copy all elements from the existing array or object
+into another array or object.14
+
+
+
+
+
